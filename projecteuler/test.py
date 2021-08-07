@@ -1,5 +1,4 @@
+from collections import deque
 
+dq = deque([1,2,3,4])
 
-a = [1,2]
-print(list(a).remove(3))
-print(int())

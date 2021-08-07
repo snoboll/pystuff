@@ -17,5 +17,5 @@ for i in range (3,10000):
             first = False
         j = j+1
         
-print svar
-print 'slut'
+print (svar)
+print ('slut')
