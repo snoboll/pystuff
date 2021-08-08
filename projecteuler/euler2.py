@@ -1,17 +1,15 @@
-#problem2
-
-summa = 0
+sum = 0
 
 c = 0
 a = 1
 b = 2
 
 while c < 4000000:
-    c = a+b
+    c = a + b
     if c % 2 == 0:
-        summa = summa + c
+        sum = sum + c
 
     a = b
     b = c        
 
-print (summa+2)
+print (sum + 2)

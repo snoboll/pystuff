@@ -1,5 +1,5 @@
-#euler30
 sum = 0
+
 for num in range(1000000):
     snum = str(num)
     numsum = 0
@@ -9,4 +9,5 @@ for num in range(1000000):
     if numsum == num:
         sum += num
         print(num)
+
 print(sum-1)

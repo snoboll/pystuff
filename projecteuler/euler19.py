@@ -1,4 +1,3 @@
-#Euler19
 months = [-1,31,28,31,30,31,30,31,31,30,31,30,31]
 days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 

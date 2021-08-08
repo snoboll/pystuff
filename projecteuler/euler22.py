@@ -1,5 +1,4 @@
-#Euler22
-inputfile = open("p022_names.txt","r")
+inputfile = open("euler22input.txt","r")
 a = inputfile.readline().split(",")
 
 a.sort()

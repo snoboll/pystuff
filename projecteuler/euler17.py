@@ -27,7 +27,6 @@ for i in range(1,1000):
     print(numstr)
     sum += len(numstr)
 
-print('onethousand')
 sum += len('onethousand')
 
 print(sum)

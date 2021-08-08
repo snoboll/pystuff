@@ -8,6 +8,6 @@ for a in range(target, -1, -200):
                 for e in range(d, -1, -10):
                     for f in range(e, -1, -5):
                         for g in range(f, -1, -2):
-                            ways+=1
+                            ways += 1
 
 print(ways)

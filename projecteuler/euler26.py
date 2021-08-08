@@ -1,4 +1,3 @@
-#euler26
 from decimal import *
 getcontext().prec += 10
 

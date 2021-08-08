@@ -1,4 +1,3 @@
-#euler 67
 f = open("euler67input.txt", "r")
 
 def row_count(filename):

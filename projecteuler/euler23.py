@@ -1,11 +1,10 @@
-#Euler23
 import time
 start_time = time.time()
 
 #checking abundant numbers
-def isAbund(n):
-    divs = set()
+def is_abund(n):
     divsum = sum([div  for div in range(1,n) if n%div == 0])
+    
     return(divsum>n)
 
 #binary search
@@ -29,9 +28,10 @@ cap = 100
 #getting list of abundant numbers
 abund = []
 for i in range(cap):
-    if isAbund(i):
+    if is_abund(i):
         abund.append(i)
 print("abund =", abund)
+
 #getting nums which cant be sum of abund numbers
 anslist = []
 for n in range(1, cap):

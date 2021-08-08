@@ -1,4 +1,3 @@
-#euler 18
 f = open("euler18input.txt", "r")
 
 tree = [[0] for i in range(15)]

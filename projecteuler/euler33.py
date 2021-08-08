@@ -1,5 +1,3 @@
-# 49/98 = 4/8
-
 fracs = []
 
 for nom in range(10,100):
@@ -19,7 +17,7 @@ for nom in range(10,100):
                 new_nom = list_nom_copy[0]
                 new_denom = list_denom_copy[0]
                 try:
-                    if nom/denom == new_nom/new_denom and nom_i != 0 and nom != denom:
+                    if nom/denom == new_nom / new_denom and nom_i != 0 and nom != denom:
                         print("Adding: ", nom, denom)
                         fracs.append([nom, denom])
                 except:
@@ -33,4 +31,4 @@ for (nom, denom) in fracs:
     bigdenom *= denom
 
 print(bignom, bigdenom)
-print(bignom/bigdenom)
+print(bignom / bigdenom)

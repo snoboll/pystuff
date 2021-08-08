@@ -1,5 +1,5 @@
 from collections import deque
-from euler10 import is_prime
+from helpers import is_prime
 
 def dq_to_int(dq):
     ret = ''
@@ -13,8 +13,6 @@ for num in range(2, 1000000):
     digit_map = map(int, digit_string)
     digit_list = list(digit_map)
     dq = deque(digit_list)
-
-    # print(dq)
 
     is_circ_prime = True
     while is_circ_prime:

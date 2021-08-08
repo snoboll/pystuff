@@ -17,4 +17,4 @@ for num in range(10000000):
         curious.append(num)
 
 print(curious)
-print(sum(curious)-3)
+print(sum(curious) - 3)

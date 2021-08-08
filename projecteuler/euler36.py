@@ -1,19 +1,4 @@
-
-def is_palindrome(s):
-    if s[0] == '0' or s[-1] == '0':
-        return False
-
-    i = 0
-    ii = len(s)-1
-    while s[i] == s[ii]:
-        i += 1
-        ii -= 1
-        
-        if i >= len(s) / 2:
-            return True
-
-    return False
-
+from helpers import is_palindrome
 
 if __name__ == '__main__':
     sum = 0
@@ -24,5 +9,3 @@ if __name__ == '__main__':
             sum += i
     
     print(sum)
-    
-
