@@ -20,19 +20,16 @@ def get_diag_max(mat):
     biggest = 0
     for i in range(17):
         for j in range(17):
-            p = 1
-            p_inv = 1
-            for k in range(4):
-                p *= mat[i + k][j + k]
+            window = [mat[i][j], mat[i + 1][j + 1] , mat[i + 2][j + 2], mat[i + 3][j + 3]]
 
+            p = prod(window)
             if p > biggest:
                 biggest = p
 
-    for i in range(19, 4, -1):
-        for j in range(19, 4, -1):
-            p = 1
-            for k in range(4):
-                p *= mat[i - k][j - k]
+    for i in range(17):
+        for j in range(19, 2, -1):
+            window = [mat[i][j], mat[i + 1][j - 1] , mat[i + 2][j - 2], mat[i + 3][j - 3]]
+            p = prod(window)
 
             if p > biggest:
                 biggest = p
