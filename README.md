@@ -1,2 +1,2 @@
 # pystuff
-Collection of random python projects
+Collection of random python work.
