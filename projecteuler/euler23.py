@@ -3,7 +3,7 @@ start_time = time.time()
 
 #checking abundant numbers
 def is_abund(n):
-    divsum = sum([div  for div in range(1,n) if n%div == 0])
+    divsum = sum([div for div in range(1,n) if n%div == 0])
     
     return(divsum>n)
 
@@ -23,7 +23,7 @@ def binsearch(list, item):
                 lo = mid+1
     return found
 
-cap = 100
+cap = 28123
 
 #getting list of abundant numbers
 abund = []

@@ -1,8 +1,13 @@
 from decimal import *
-getcontext().prec += 10
 
+def found_recyc(n):
+
+
+
+    
 a = []
+longest_recyc = 1
 for i in range(1, 1000):
-    a.append(1/i)
+    a.append(Decimal(1)/Decimal(i))
 
-print(a)
+

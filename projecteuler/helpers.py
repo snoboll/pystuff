@@ -1,7 +1,7 @@
 def is_prime(n):
     if n == 2 or n == 3:
         return True
-    if n % 2 == 0 or n % 3 == 0:
+    if n % 2 == 0 or n % 3 == 0 or n == 1:
         return False
     
     i = 5
