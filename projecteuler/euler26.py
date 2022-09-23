@@ -1,7 +1,7 @@
 from decimal import *
 
 def found_recyc(n):
-
+    return
 
 
 
