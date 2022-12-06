@@ -1,3 +1,4 @@
+
 def get_lines():
     with open('advent_of_code_2022/data.txt') as file:
         return [line for line in file]
@@ -50,5 +51,23 @@ def two():
 
     print(score)
 
+def three():
+    import string
 
-two()
+    lines = get_lines()
+    ans = 0
+    for line in lines:
+        a = line[0:len(line) - 1]
+        b = line[1:len(line)]
+        # print(a,b)
+        for char in a:
+            if char in b:
+                # print(char)
+                ans += string.ascii_lowercase.index(char)
+                break
+
+    # print(lines)
+    print(ord("L"))
+    # print(ans)
+
+three()
