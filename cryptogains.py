@@ -2,13 +2,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Constants
-years = 40
-initial_investment = 100000  # SEK
+years = 10
+initial_investment = 0  # SEK
 monthly_investment = 1000  # SEK
 monthly_investment_annual = monthly_investment * 12  # Annualized monthly investment
 isk_tax_rate = 0.01  # Assumed average ISK tax rate
 capital_gains_tax = 0.30  # 30% capital gains tax
-compounded_rates = [0.04, 0.10, 0.20]  # Compounding rates
+compounded_rates = [0.07, 0.10, 0.15, 0.20]  # Compounding rates
 inflation_rate = 0.05  # 5% inflation rate
 
 # Function to generate savings data for each year, adjusted for inflation
